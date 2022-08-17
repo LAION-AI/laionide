@@ -16,9 +16,9 @@ Files:
 - [laionide-v3-base.pt](https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v3-base.pt)
 
 Inference:
-- [replicate](https://replicate.com/afiaka87/laionide-v3)
-- [colab](https://gist.github.com/afiaka87/8655b15c94bf0e80f586ce54cfe39ab5#file-laionide-v3-ipynb)
-- [locally](https://github.com/afiaka87/pyglide)
+- [replicate](https://replicate.com/laion-ai/laionide-v3)
+- [colab](https://gist.github.com/laion-ai/8655b15c94bf0e80f586ce54cfe39ab5#file-laionide-v3-ipynb)
+- [locally](https://github.com/laion-ai/pyglide)
 
 Results:
 - [comparison to openai W&B report](https://wandb.ai/afiaka87/laionide-v3-glide/reports/Laionide-Version-3-Benchmark--VmlldzoxNjE0MTE3)
@@ -38,10 +38,7 @@ Files:
 - [laionide-v2-sr.pt](https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v2-sr.pt)
 
 Inference:
-- [replicate](https://replicate.com/afiaka87/laionide-v2)
-
-Results:
-- [comparison to openai W&B report](https://wandb.ai/afiaka87/glide_compare/reports/Finetuning-GLIDE-on-LAION-does-it-work---VmlldzoxNTg3MTkz)
+- [replicate](https://replicate.com/laion-ai/laionide-v2)
 
 Training details:
 - Data was removed from training given any of the following:
@@ -65,12 +62,4 @@ Training details
 
 Inference
 - [colab](https://gist.github.com/afiaka87/5f64e4de49b50554270a0a6ece243014#file-laionide-ipynb)
-- [replicate](https://replicate.com/afiaka87/laionide)
-
-### Deliverables
-
-code used to finetune:
-https://github.com/afiaka87/glide-finetune
-
-the code to reconstruct the replicate demo is at this branch:
-https://github.com/afiaka87/pyglide-replicate/tree/laionide
+- [replicate](https://replicate.com/laion-ai/laionide)
